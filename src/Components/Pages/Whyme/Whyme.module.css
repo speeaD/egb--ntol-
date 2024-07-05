@@ -1,0 +1,68 @@
+.whyme{
+    color: white;
+    margin-block: 400px 100px;
+}
+
+li{
+    margin-block: 10px;
+}
+
+.vote{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.why{
+    display: flex;
+    gap: 40px;
+    padding-bottom: 30px;
+}
+
+.image{  
+    width: 300px;
+    height: 550px;
+    border-radius: 25px;
+    border: 4px solid rgb(208, 166, 23);;
+    margin-right: 20px;
+    flex: 1.7;
+
+}
+
+quote{
+    color: rgb(208, 166, 23);
+}
+
+.diff{
+    color: rgb(208, 166, 23);
+}
+
+
+.info{
+    color: white;
+    text-align: justify;
+    flex: 3;
+}
+
+p{
+    margin-block: 10px;
+}
+
+@media(max-width: 500px) {
+     .whyme{
+        margin-block: 1200px 20px;
+     }
+
+    .why{
+        flex-direction: column;
+    }
+
+    .vote{
+        font-size: 30px;
+    }
+
+    .image{
+        width: 340px;
+    }
+}

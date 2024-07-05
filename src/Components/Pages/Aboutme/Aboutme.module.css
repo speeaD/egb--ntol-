@@ -1,0 +1,94 @@
+.meet{
+    text-transform: uppercase;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    font-weight: 600;
+    margin-block: 120px 50px;
+}
+
+.aboutme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 90vw;
+}
+
+.allow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagecontains{
+    width: 360px;
+    height: 550px;
+    border-radius: 25px;
+    border: 5px solid rgb(208, 166, 23);
+    margin-right: 20px;
+    margin-bottom: 30px;
+    flex: 1.7;
+}
+
+.imgs{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+
+h2{
+    margin-bottom: 20px;
+}
+
+.info{
+    color: white;
+    flex: 3;
+    text-align: justify;
+}
+
+p{
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+br{
+    margin-bottom: 20px;
+}
+
+.diff{
+    color: rgb(208, 166, 23);
+}
+
+@media(max-width: 500px) {
+    .meet{
+        font-size: 30px;
+        margin-block: 70px 50px;
+    }
+
+    .aboutme{
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
+        margin-top: 500px;
+        padding-block: 120px 40px;
+
+    }
+
+    .imagecontains{
+        width: 350px;
+        height: 400px;
+        flex: 1.5;
+    }
+
+    
+    .imgs{
+        width: 100%;
+        height: 100%;
+    }
+}

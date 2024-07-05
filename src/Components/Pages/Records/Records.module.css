@@ -1,0 +1,79 @@
+.records{
+    color: white;
+    height: 100%;
+    margin-block: 320px 50px;
+}
+
+.diff{
+    color: rgb(208, 166, 23)
+}
+
+.track{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-block: 150px 100px;
+}
+
+.words{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.imgscontain{
+    width: 360px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 25px;
+    border: 4px solid rgb(208, 166, 23);
+    margin-right: 20px;
+    margin-bottom: 30px;
+    flex: 1.7;
+}
+
+
+
+h2{
+    margin-bottom: 20px;
+}
+
+.tracks{
+    color: white;
+    flex: 3;
+}
+
+li{
+    list-style-type: disc;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.long{
+    margin-bottom: 20px;
+}
+
+
+@media(max-width: 500px){
+    .records{
+        margin-block: 560px 50px;
+        padding-top: 200px;
+    }
+
+    .words{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .imgscontain{
+        width: 350px;
+        height: 300px;
+    }
+
+    .track{
+        margin-block: 80px 50px;
+        font-size: 20px;
+    }
+    
+}
